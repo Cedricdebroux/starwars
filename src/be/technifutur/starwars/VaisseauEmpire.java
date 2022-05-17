@@ -11,7 +11,9 @@ public class VaisseauEmpire extends VaisseauAncetre {
     }
 
     public void messageDarkvador(String message) {
+        System.out.println(message);
         System.out.println("Je suis ton père !!!");
     }
+
 
 }

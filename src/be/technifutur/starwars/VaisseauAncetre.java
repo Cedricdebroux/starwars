@@ -1,6 +1,6 @@
 package be.technifutur.starwars;
 
-public class VaisseauAncetre {
+public abstract class VaisseauAncetre {
     private String nom = "Vaisseau sans nom"; // le faite de le mettre en private ont ne peux pas y y acceder en dehors de la class, celui-ci à un nom par défaut assigné "Vaisseau sans nom"
     private int nbMissille;
 
@@ -81,4 +81,6 @@ public class VaisseauAncetre {
 
         return enVol;
     }
+
+    public abstract void afficheCamp();
 }
